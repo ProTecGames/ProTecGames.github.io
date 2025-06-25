@@ -1,17 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags for character set and viewport -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="ProTec Games offers apps, games, and AI tools that help everyday users. Founded by Prakhar Doneria, we focus on performance, accessibility, and innovation. Explore our featured apps like Karbon AI and HTML Editor Pro.">
+  <meta name="keywords" content="ProTec Games, Android apps, AI tools, games, web editor, educational apps, Karbon AI, HTML editor, Prakhar Doneria">
+  <meta name="author" content="Prakhar Doneria">
+
+  <!-- Open Graph Meta Tags for social media sharing -->
+  <meta property="og:title" content="ProTec Games - AI Tools, Apps, and Games">
+  <meta property="og:description" content="ProTec Games offers innovative apps, games, and AI tools for everyday users. Discover Karbon AI, HTML Editor Pro, and more!">
+  <meta property="og:image" content="/assets/images/og-image.jpg"> <!-- Example image, replace with actual one -->
+  <meta property="og:url" content="https://www.protecgames.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ProTec Games - AI Tools, Apps, and Games">
+  <meta name="twitter:description" content="Explore ProTec Games, featuring AI-powered tools, apps, and games that improve productivity and creativity.">
+  <meta name="twitter:image" content="/assets/images/og-image.jpg"> <!-- Example image, replace with actual one -->
+
+  <!-- Page Title -->
   <title>ProTec Games</title>
+
+  <!-- External CSS links -->
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="stylesheet" href="/css/components.css" />
+
+  <!-- Google Fonts link for Roboto -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Header Section -->
   <header class="header">
     <div class="container nav-container">
+      <!-- Logo -->
       <h1 class="logo">ProTec Games</h1>
+
+      <!-- Navigation Bar -->
       <nav class="main-nav">
         <div class="nav-links" id="navLinks">
           <a href="/">Home</a>
@@ -19,13 +49,18 @@
           <a href="/apps/">Apps</a>
           <a href="/reviews/">Reviews</a>
           <a href="/about/">About</a>
+          
+          <!-- Dark Mode Toggle Button -->
           <button id="darkModeToggle">🌙</button>
         </div>
+        
+        <!-- Mobile Menu Toggle -->
         <button class="menu-toggle" id="menuToggle">☰</button>
       </nav>
     </div>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
     <div class="container hero-content">
       <h2 class="hero-title">Welcome to ProTec Games</h2>
@@ -34,6 +69,7 @@
     </div>
   </section>
 
+  <!-- About Us Section -->
   <section class="about-brief">
     <div class="container">
       <h3>About Us</h3>
@@ -42,30 +78,60 @@
     </div>
   </section>
 
+  <!-- Featured Apps Section -->
   <section class="featured-apps container">
     <h3>Featured Apps</h3>
+
+    <!-- App Grid (two apps in the first row) -->
     <div class="app-grid">
       <div class="app-card">
-        <img src="/assets/images/brain-ai-icon.png" alt="BRAIN AI Icon" />
-        <h4>BRAIN AI</h4>
-        <p>AI Assistant for Android using LLMs.</p>
-        <a href="#">View App →</a>
+        <img src="/assets/images/karbon-ai.png" alt="Karbon AI Icon" />
+        <h4>Karbon AI</h4>
+        <p>Make websites by prompting.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.protecgames.karbon" target="_blank">View App →</a>
       </div>
       <div class="app-card">
-        <img src="/assets/images/visionary-llm.png" alt="Visionary LLM Icon" />
-        <h4>Visionary LLM</h4>
-        <p>Creative assistant for writing and coding.</p>
-        <a href="#">View App →</a>
+        <img src="/assets/images/html-editor-pro.png" alt="HTML Editor Pro Icon" />
+        <h4>HTML Editor Pro</h4>
+        <p>Modern web editor with built-in smart tools and AI.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.protecgames.htmleditorpro" target="_blank">Play Store →</a>
+      </div>
+    </div>
+
+    <!-- Additional App Cards -->
+    <br>
+    <div class="app-card">
+      <img src="/assets/images/html-editor-pro.png" alt="HTML Editor Pro Icon" />
+      <h4>HTML Editor Pro - Desktop</h4>
+      <p>Modern web editor with built-in smart tools and AI.</p>
+      <a href="https://html-editor-pro.web.app/" target="_blank">Web →</a>
+    </div>
+
+    <!-- App Grid (second row) -->
+    <div class="app-grid">
+      <div class="app-card">
+        <img src="/assets/images/visionary-llm.png" alt="VerboVisions Icon" />
+        <h4>VerboVisions - Text to Image</h4>
+        <p>Create cool images with AI.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.protecgames.verbovisions" target="_blank">Play Store →</a>
+      </div>
+      <div class="app-card">
+        <img src="https://raw.githubusercontent.com/PrakharDoneria/ChiX/main/generated-icon.png" alt="ChiX Icon" />
+        <h4>ChiX - C Code Editor</h4>
+        <p>Modern C Code Editor for students.</p>
+        <a href="https://github.com/PrakharDoneria/ChiX/releases/download/build-90f3b33/ChiX.exe" target="_blank">Download for Windows →</a>
       </div>
     </div>
   </section>
 
+  <!-- Footer Section -->
   <footer class="footer">
     <div class="container">
-      <p>© 2025 ProTec Games. Built by Prakhar Doneria.</p>
+      <p>© 2025 ProTec Games.</p>
     </div>
   </footer>
 
+  <!-- External JS script -->
   <script src="/js/main.js"></script>
 </body>
 </html>
